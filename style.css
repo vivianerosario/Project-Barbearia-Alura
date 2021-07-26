@@ -1,9 +1,11 @@
-body{
-    background: #CCCCCC
-}
+
 #banner{
     width: 100%;
 }
+.principal{
+    background: #cccccc;
+}
+
 h1{
     text-align: center
 }
@@ -16,6 +18,9 @@ p{
 em strong{
     color: red
 }
-#itens{
+.itens{
     font-style: italic
+}
+h2{
+    text-align: center;
 }
