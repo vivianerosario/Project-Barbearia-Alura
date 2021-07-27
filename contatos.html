@@ -27,21 +27,21 @@
         <form action="">
             <!-- Formulário -->
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao">
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
             <label for="tel">Telefone</label>
-            <input type="text" id="tel" class="input-padrao">
+            <input type="tel" id="tel" class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
 
             <label for="msg">Mensagem</label>
-            <textarea name="" id="msg" cols="70" rows="10"></textarea>
+            <textarea name="" id="msg" cols="70" rows="10" required></textarea>
 
             <!-- Form com Checkbox -->
             <div>
                 <p>Como prefere o nosso contato?</p>
-                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">Email</label>
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato" checked>Email</label>
                 
 
                 <label for="radio-tel"><input type="radio" value="telefone" id="radio-tel" name="contato">Telefone</label>
@@ -62,7 +62,7 @@
                 </div>
 
             <!-- Checkbox -->
-                <label for="check" class="checkbox"><input type="checkbox" id="check">Gostaria de receber nossas novidades por email?</label>
+                <label for="check" class="checkbox"><input type="checkbox" id="check" checked>Gostaria de receber nossas novidades por email?</label>
 
             <!-- Botão para enviar formulário -->
             <input type="submit" value="Enviar Formulário">
