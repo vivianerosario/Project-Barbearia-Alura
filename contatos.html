@@ -25,6 +25,7 @@
 
     <main>
         <form action="">
+            <!-- Formulário -->
             <label for="nomesobrenome">Nome e Sobrenome</label>
             <input type="text" id="nomesobrenome">
 
@@ -34,6 +35,25 @@
             <label for="tel">Telefone</label>
             <input type="text" id="tel">
 
+            <label for="msg">Mensagem</label>
+            <textarea name="" id="msg" cols="70" rows="10"></textarea>
+
+            <!-- Form com Checkbox -->
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" value="email" id="radio-email" name="contato">
+
+                <label for="radio-tel">Telefone</label>
+                <input type="radio" value="telefone" id="radio-tel" name="contato">
+
+                <label for="radio-whatsapp">whatsapp</label>
+                <input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">
+
+            </div>
+                <label for="check"><input type="checkbox" id="check">Gostaria de receber nossas novidades por email?</label>
+
+            <!-- Botão para enviar formulário -->
             <input type="submit" value="Enviar Formulário">
         </form>
     </main>
